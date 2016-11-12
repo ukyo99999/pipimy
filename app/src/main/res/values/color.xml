@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="general_bg_white">#FFFFFFFF</color>
+    <color name="general_bg_gray">#FF797979</color>
+    <color name="general_bg_red">#FFCC0000</color>
+    <color name="general_bg_navi_blue">#FFa6bfe8</color>
+
+    <color name="general_text_white">#FFFFFFFF</color>
+    <color name="general_text_gray">#FF797979</color>
+    <color name="general_text_red">#FFCC0000</color>
+
+
+    <color name="bg_home">#FFEF856D</color>
+    <color name="bg_title_bar">#FFEF856D</color>
+    <color name="bg_content">#FF696969</color>
+    <color name="bg_bottom_menu">#FFEF856D</color>
+    <color name="text_title_bar">#FFFFFFFF</color>
+
+    <color name="text_btn_pm">#FFFFFFFF</color>
+    <color name="text_red">#FF990033</color>
+    <color name="line_gray">#FF797979</color>
+
+    <color name="edit_product_title_gray">#FFAAAAAA</color>
+    <color name="edit_product_line_gray">#FFAAAAAA</color>
+    <color name="edit_product_text_hint">#FFAAAAAA</color>
+
+    <color name="search_product_recent_gray">#FFAAAAAA</color>
+    <color name="bg_talk_list">#FFF5E6D3</color>
+    <color name="bg_talk_product_area">#FFFFFFFF</color>
+
+
+    <color name="me_line_gray">#FFAAAAAA</color>
+    <color name="me_text_blue">#FF007799</color>
+    <color name="me_text_red">#FFCC0000</color>
+    <color name="me_text_dark_red">#FF880000</color>
+
+    <color name="edit_profile_line_gray">#FFAAAAAA</color>
+
+    <color name="inbox_message_green">#FF008800</color>
+    <color name="inbox_message_blue">#FF007799</color>
+    <color name="inbox_message_white">#FFFFFFFF</color>
+    <color name="inbox_message_gray">#FF797979</color>
+
+    <color name="me_setting_line_gray">#FFAAAAAA</color>
+
+
+
+
+</resources>

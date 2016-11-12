@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@color/general_bg_white">
+
+        <RelativeLayout
+            android:id="@+id/layout_pop_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/general_bg_gray" >
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="完成"
+                android:paddingRight="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/general_text_white" />
+        </RelativeLayout>
+
+        <com.macrowell.pipimy.utility.PickerView
+            android:id="@+id/picker_sex"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_below="@+id/layout_pop_title" />
+    </RelativeLayout>
+
+</LinearLayout>

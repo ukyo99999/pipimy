@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "tw.com.pipimy.app.android"
+        minSdkVersion 8
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/android-query-full.0.24.3.jar')
+    compile files('libs/org.json-20120521.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+    compile 'com.android.support:support-v4:21.0.3'
+    compile project(':library:ViewpagerIndicatorLibrary')
+    compile "com.google.android.gms:play-services:3.1.+"
+}
